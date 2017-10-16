@@ -1,4 +1,4 @@
-#Simulation and Modelling User Group for the Language Sciences in Nijmegen
+# Simulation and Modelling User Group for the Language Sciences in Nijmegen
 
 This repository is a playground for anyone attending the SMUG meetings.
 Feel free to upload snippets of code (either through the GitHub.com website, the GitHub desktop client, or using git) that you want to share with others in the group.
