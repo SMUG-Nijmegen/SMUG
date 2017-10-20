@@ -1,0 +1,6 @@
+#!/bin/sh
+#$ -N python_example
+#$ -cwd
+#$ -S /bin/bash
+#$ -q multi.q
+python parallel_python.py
