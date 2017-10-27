@@ -1,4 +1,8 @@
 library(dplyr)
+
+# install.packages("devtools")
+devtools::install_github("hadley/multidplyr") # not on CRAN so have to get it from github
+
 library(multidplyr)
 
 load("results_smug.RData")
