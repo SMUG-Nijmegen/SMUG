@@ -1,0 +1,11 @@
+#!/bin/sh
+#$ -N nor456
+#$ -cwd
+#$ -q single.q
+#$ -pe smp 10
+#$ -p -500
+#$ -S /bin/bash
+#$ -M joe.rodd@mpi.nl
+#$ -o gridoutput/$JOB_NAME-$JOB_ID.out
+#$ -e griderrors/$JOB_NAME-$JOB_ID.err
+sh mpi_run_grid.sh 456 999 10 12 d longtests_1
