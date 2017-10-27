@@ -3,4 +3,4 @@
 #$ -cwd
 #$ -S /bin/bash
 #$ -q multi.q
-python parallel_python.py
+python ../parallel_python/parallel_python.py
